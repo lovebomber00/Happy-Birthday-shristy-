@@ -254,7 +254,7 @@ body{font-family:'Cormorant Garamond','Playfair Display',serif;background:linear
   });
 
   // Photo frame: tap to add a picture (shrunk and remembered on this device)
-  var PHOTO_SRC=''; // optional: paste a photo URL or data:image/... string here to show it for everyone
+  var PHOTO_SRC='https://www.dropbox.com/scl/fi/s59nuejair88vijnqbjrm/file_00000000d5f082118d31a654f03ea460.png?rlkey=9ha07n5cipoc31xvwfdfocegn&st=zl4ci46g&dl=0'; // optional: paste a photo URL or data:image/... string here to show it for everyone
   var pArea=$('photoArea'),pImg=$('photoImg'),savedPhoto=null;
   function showPhoto(src){pImg.src=src;pArea.classList.add('has')}
   try{savedPhoto=localStorage.getItem('shristyPhoto')}catch(e){}
